@@ -1,3 +1,2 @@
 #!/bin/sh
-echo Hello World 
-gcloud info
+gcloud sql instances clone application1 application2
